@@ -1,0 +1,24 @@
+package Mystatic;
+
+import java.io.*;
+
+class Student {
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String N) {
+		this.name = N;
+	}
+}
+
+class MySetter {
+
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		s1.setName("Ajith");
+		System.out.println(s1.getName());
+	}
+}

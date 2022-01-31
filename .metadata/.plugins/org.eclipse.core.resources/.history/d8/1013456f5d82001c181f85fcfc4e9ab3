@@ -1,0 +1,27 @@
+class A
+{
+	int a=50;
+	public void printA()
+	{
+		System.out.println("A");
+		
+	}
+}
+class B extends A
+{
+	int b=10;
+	public void printB()
+	{System.out.println(b);
+		
+	}
+}
+public class MyInheritance {
+	public static void main(String args[])
+	{
+		B b=new B();
+		b.printB();
+		b.printA();
+		
+	}
+
+}

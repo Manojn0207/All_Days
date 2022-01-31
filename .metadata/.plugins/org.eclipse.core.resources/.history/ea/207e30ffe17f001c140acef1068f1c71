@@ -1,0 +1,13 @@
+
+public class AssignmentQuotientRemainder {
+	public static void main(String args[])
+	{
+		double a=12;
+		double b=17;
+		double c=a/b;
+		double d=a%b;
+		System.out.println(c);
+		System.out.println(d);
+	}
+
+}

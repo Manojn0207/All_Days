@@ -1,0 +1,37 @@
+package Mystatic;
+class student
+{
+	private String name;
+	private int standard;
+	private int mark;
+	public String setName;
+	public String setstandard;
+	public String setmark;
+	public void setName(String N)
+	{
+		this.name=N;
+	}
+	public void setstandard(int S)
+	{
+		this.standard=S;
+	}
+	public void setmark(int M)
+	{
+		this.mark=M;
+	}
+	
+}
+
+public class MySetter {
+	public static void main(String args)
+	{
+		student s1=new student();
+		s1.setName("Ajith");
+		s1.setstandard(11);
+		s1.setmark(99);
+		System.out.println("Name = "+s1.setName );//+ "standard = "+this.setstandard + "mark = "+this.setmark);
+		
+		
+	}
+
+}

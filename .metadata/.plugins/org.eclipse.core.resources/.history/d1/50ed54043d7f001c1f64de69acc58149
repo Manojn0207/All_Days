@@ -1,0 +1,11 @@
+
+public class ReadAndWriteFloat {
+	public static void main(String args[])
+	{
+		double a=10.15;
+		double b=20.21;
+		double c=a+b;
+		System.out.println(c);
+	}
+
+}

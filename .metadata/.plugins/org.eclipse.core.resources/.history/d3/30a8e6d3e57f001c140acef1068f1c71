@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class AssignmentSimpleIntertest {
+	public static void main(String args[])
+	{
+		Scanner sp=new Scanner(System.in);
+		System.out.println("Enter the principal amoount ");
+		int p=sp.nextInt();
+		System.out.println("Enter the interest rate ");
+		int i=sp.nextInt();
+		System.out.println("Enter the time period ");
+		int t=sp.nextInt();
+		int si=(p*i*t)/100;
+		System.out.println(si);
+				
+	}
+
+}

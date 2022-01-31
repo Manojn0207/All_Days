@@ -1,0 +1,9 @@
+
+public class ReadAndWrite {
+	public static void main(String args[])
+	{
+		int myvar=10;
+		System.out.println("myvar");
+	}
+
+}

@@ -1,0 +1,22 @@
+class A
+{
+	public void printA()
+	{System.out.println("A");
+		
+	}
+}
+class B
+{
+	public void printB()
+	{System.out.println("B");
+		
+	}
+}
+public class MyInheritance {
+	public static void main(String args[])
+	{
+		B b=new B();
+		b.printB();
+	}
+
+}

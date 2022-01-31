@@ -1,0 +1,25 @@
+
+public class MySwitch {
+	public static void main(String args[])
+	{
+		int day=2;
+		swtich (day){
+			case 1:
+				System.out.println("sun");
+				break;
+			case 2:
+				System.out.println("mon");
+				break;
+			case 3:
+				System.out.println("tue");
+				break;
+			case 4:
+				System.out.println("wed");
+				break;
+			default:
+				System.out.println("Unknown day");
+				break;
+		}
+	}
+
+}
