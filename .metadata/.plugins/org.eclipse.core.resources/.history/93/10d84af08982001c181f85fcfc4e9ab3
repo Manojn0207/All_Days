@@ -1,6 +1,6 @@
 class A
 {
-	static int a=14;
+	final int a=14;
 	public void printA()
 	{
 		System.out.println("A");

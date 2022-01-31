@@ -5315,3 +5315,8 @@ java.nio.file.FileSystemException: C:\Users\Manoj\eclipse-workspace\Day2_java: T
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.core.resources 2 2 2022-01-31 14:48:39.217
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-01-31 14:48:39.217
+!MESSAGE The project description file (.project) for 'Day2' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

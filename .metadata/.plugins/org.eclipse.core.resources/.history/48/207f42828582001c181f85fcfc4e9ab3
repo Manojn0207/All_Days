@@ -1,0 +1,64 @@
+abstract  class Mobile
+{
+	
+	
+	abstract public void calling();
+   abstract public void sendSMS();
+   abstract public void wifi();
+}
+class google extends Mobile
+{
+
+	@Override
+	public void calling() {
+		// TODO Auto-generated method stub
+		System.out.println("Google Mobile");
+	}
+
+	@Override
+	public void sendSMS() {
+		// TODO Auto-generated method stub
+		System.out.println("Google sending sms");
+	}
+	public void wifi()
+	{
+		System.out.println("100mbps");
+	}
+	
+}
+class apple extends Mobile
+{
+	public void calling()
+	{
+		System.out.println("Apple Mobile");
+	}
+
+	@Override
+	public void sendSMS() {
+		// TODO Auto-generated method stub
+		System.out.println("Apple sending sms");
+	}
+
+	@Override
+	public void wifi() {
+		// TODO Auto-generated method stub
+		System.out.println("500mbps");
+		
+	}
+}
+
+public class MyAbstraction {
+	public static void main(String args[])
+	{
+		google g1=new google();
+		g1.calling();
+		g1.sendSMS();
+		g1.wifi();
+		apple a1=new apple();
+		a1.calling();
+		a1.sendSMS();
+		a1.wifi();
+		
+	}
+
+}
