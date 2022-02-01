@@ -16,7 +16,7 @@ class drawshape
 	}
 }
 
-public class MyPolimorphismOverridding {
+public class MyPolimorphismOverloaading {
 	public static void main(String args[])
 	{
 		drawshape s1=new drawshape();
