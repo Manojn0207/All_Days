@@ -29,7 +29,7 @@ class D1 extends C1
 	}
 }
 
-public class MyHierarichalInheritance {
+public class MyMultiLevel {
 	public static void main(String args[])
 {
 	D1 d=new D1();

@@ -27,7 +27,7 @@ class child3 extends parent
 		System.out.println("child3");
 	}
 }
-public class MyMultiLevelInheritance {
+public class MyHierarichal {
 	public static void main(String args[])
 	{
 		child1 c1=new child1();

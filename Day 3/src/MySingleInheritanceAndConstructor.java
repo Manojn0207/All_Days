@@ -1,5 +1,9 @@
 class A
 {
+	A()
+	{
+		System.out.println("I am A constructor");
+	}
     int a=14;
 	public void printA()
 	{
@@ -14,10 +18,23 @@ class B extends A
 	{System.out.println("B");
 		
 	}
+	B()
+	{
+		System.out.println("I am B constructor");
+	}
+	
 }
-public class MySingleInheritance {
+class C extends B
+{
+	C()
+	{
+		super();
+	}
+}
+public class MySingleInheritanceAndConstructor {
 	public static void main(String args[])
 	{
+		
 		B b=new B();
 		b.printA();
 		b.printB();
