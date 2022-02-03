@@ -1,7 +1,7 @@
 package com.cpg;
 
 public class AssignmentSumOfTheArrays {
-	static int arr[] = { 12, 3, 4, 15 };
+	static int arr[] = { 1, 2, 3, 4 };
 	static int sum()
 	{
 		int sum = 0; 
