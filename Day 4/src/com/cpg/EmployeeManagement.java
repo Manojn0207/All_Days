@@ -36,6 +36,11 @@ class EmployeeM
 	}
 
 
+	public EmployeeM() {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	private String name;
 	private int salary;
 	private int ID;
@@ -51,6 +56,7 @@ public class EmployeeManagement {
 			System.out.println("Enter 1 to create details");
 			System.out.println("Enter 2 to display");
 			System.out.println("Enter 3 to search an employee");
+			System.out.println("Enter 4 for delete a employee");
 			int choice=sc.nextInt();
 			if(choice==1)
 			{
@@ -96,6 +102,32 @@ public class EmployeeManagement {
 				{
 					System.out.println("Not Found");
 				}
+			}
+			if(choice==4)
+			{
+				boolean deleteFlag=true;
+				for(int i=0;i<e1.length;i++)
+				{
+					System.out.println(e1[i]);
+				}
+				System.out.println("Enter the id for which you want to delete the employee");
+				int id=sc.nextInt();
+				for(int i=0;i<e1.length;i++)
+				{
+					if(e1[i].getID()==id)
+					{
+						System.out.println("Deleting record "+e1[i].toString());
+						e1[i]=new EmployeeM();
+						deleteFlag=false;
+						break;
+						
+					}
+				}
+				if(deleteFlag)
+				{
+					System.out.println("No Matching Id found");
+				}
+				
 			}
 		}
 	}
